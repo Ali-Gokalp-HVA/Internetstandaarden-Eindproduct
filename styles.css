@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+body {
+    font-family: 'Protest Guerrilla', 'Times New Roman', 'Times', serif;
+    background-color: #efe9e9;
+}
+
+header {
+
+    background-color: #f6f5f5;
+    text-align: center;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-top: 2em;
+    font-family: sans-serif;
+    justify-content: start; 
+    display: flex;
+    flex direction: columns: ;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4em;
+}
+
+main {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-top: 2em; 
+}
+
+footer {
+    font-family: sans-serif;
+    background-color: #f6f5f5;
+    text-align: center;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 400; 
+    transition: color 0.3s ease, background-color 0.3s ease, font-weight 0.3s ease; 
+}
+
+
+a:hover {
+    color: rgb(162, 6, 6);
+    font-weight: 800;
+    background-color: #f2f2f2;
+    
+}
+
+
+a:active {
+    background-color: #cccccc; 
+}
+
+h1 {
+    font-family: 'Protest Guerrilla', sans-serif;
+    color: #a20606;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
